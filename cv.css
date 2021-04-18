@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  /*  border: 1px solid red;*/
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /*grid-gap: 10px;*/
+    position: relative;
+    font-family: serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -70px;
+    top: 25px;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.exp {
+    margin: 10px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.skill {
+    margin: 10px;
+}
+.h3 {
+    position: relative;
+    left: -40px;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.edu {
+    margin: 10px;
+    position: relative;
+    left: 46px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -28px;
+}
+
+.lang {
+    position: relative;
+    left: -38px;
+}
+
+.lang-ul {
+    position: relative;
+    left: -26px;
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.tech {
+    margin: 10px;
+    position: relative;
+    left: 46px;
+}
+
+ul li {
+    padding: 2px;
+}
+
+h3 {
+    color: #0bb5ff;
+}
+
+h3, p {
+    padding: 3px;
+}
+
+/*.div {
+    border: 1px solid red;
+}*/
